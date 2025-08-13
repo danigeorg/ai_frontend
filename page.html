@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help Screen</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="output.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+    body { font-family: 'Orbitron', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#007BFF] min-h-screen flex flex-col items-center justify-center relative">
+
+  <!-- Logo top left -->
+  <div class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center rounded-full">
+    <img src="Images/logo 1.svg" alt="">
+  </div>
+
+  <!-- Top buttons -->
+  <div class="absolute top-6 flex space-x-2">
+    <button class="px-4 py-1 bg-gray-200 text-black text-sm rounded-full">MY ACTIVITIES</button>
+    <button class="px-4 py-1 bg-black text-white text-sm rounded-full">MY AGENT</button>
+  </div>
+
+  <!-- Main text -->
+  <h1 class="text-[#FFFFFF] text-3xl text-center font-bold leading-snug">
+    HOW MAY I HELP YOU <br /> TODAY
+  </h1>
+
+  <!-- Speak to Agent button -->
+  <button class="mt-6 px-6 py-2 bg-gray-200 text-[#000000] rounded-md">
+    Speak to Agent
+  </button>
+
+</body>
+</html>
