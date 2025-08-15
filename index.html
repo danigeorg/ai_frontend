@@ -1,138 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Medicine Dashboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-[#007BFF] min-h-screen flex flex-col items-center p-4">
 
-    <!-- Logo top left -->
+  <!-- Logo top left -->
   <div class="absolute top-4 left-4 w-10 h-10 flex items-center justify-center rounded-full">
     <img src="Images/logo 1.svg" alt="">
   </div>
 
   <!-- Top Navigation -->
-<div class="flex flex-wrap justify-center gap-3 sm:gap-6 mt-4 bg-white rounded-full p-1 shadow-md">
-    <button class="bg-black text-white px-5 py-2 rounded-full font-semibold">
-        MY ACTIVITIES
+  <div class="flex flex-wrap justify-center gap-3 sm:gap-6 mt-4 bg-white rounded-full p-1 shadow-md">
+    <button class="bg-[#000000] text-white px-5 py-2 rounded-full font-semibold">
+      MY ACTIVITIES
     </button>
-    <button class="bg-white text-black px-5 py-2 rounded-full font-semibold">
-        MY AGENT
+    <button class="bg-white text-[#000000] px-5 py-2 rounded-full font-semibold">
+      MY AGENT
     </button>
-</div>
+  </div>
 
 
   <!-- Main Content -->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 w-full max-w-6xl">
 
-   
-
-  <!-- Upcoming Medication -->
 
 
+    <!-- Upcoming Medication -->
 
 
-<div class="bg-white rounded-lg p-4 shadow-md flex flex-col">
-  <h2 class="bg-black text-white px-4 py-1 rounded-lg inline-block mb-4 text-sm sm:text-base">
-    UPCOMING MEDICATION
-  </h2>
-  <div class="space-y-4 overflow-y-auto max-h-64 pr-2">
-    <div>
-      <p class="font-semibold">MEDICINE: <span class="font-normal">Aspirin</span></p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 7:00 am</p>
-    </div>
-    <div>
-      <p class="font-semibold">MEDICINE: <span class="font-normal">Dolo</span></p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 2:30 pm</p>
-    </div>
-    <div>
-      <p class="font-semibold">MEDICINE: <span class="font-normal">Atortib</span></p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 7:00 pm</p>
-    </div>
-    <!-- Scrollable extra items -->
-    <div>
-      <p class="font-semibold">MEDICINE: <span class="font-normal">Extra Med 1</span></p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 9:00 am</p>
-    </div>
-    <div>
-      <p class="font-semibold">MEDICINE: <span class="font-normal">Extra Med 2</span></p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 5:00 pm</p>
-    </div>
-  </div>
-</div>
 
 
-<!-- Medicines Stock -->
-<div class="bg-gray-200 rounded-lg p-4 flex flex-col">
-  <div class="flex justify-between items-center mb-4">
-    <h2 class="bg-black text-white px-4 py-1 rounded-lg">MEDICINES STOCK</h2>
-    <span class="text-black text-xl">📎</span>
-  </div>
-  <div class="space-y-4 overflow-y-auto max-h-64 pr-2">
-    <div>
-      <p class="text-white bg-black rounded px-3 py-1 inline-block">Acetaminophen</p>
-      <p class="text-sm mt-1">23/50</p>
-      <div class="w-full bg-black rounded-full h-2">
-        <div class="bg-green-500 h-2 rounded-full" style="width:46%"></div>
+    <div class="bg-white rounded-lg p-4 shadow-md flex flex-col">
+      <h2 class="bg-[#000000] text-white px-4 py-1 rounded-lg inline-block mb-4 text-sm sm:text-base">
+        UPCOMING MEDICATION
+      </h2>
+      <div class="space-y-4 overflow-y-auto max-h-64 pr-2">
+        <div>
+          <p class="font-semibold">MEDICINE: <span class="font-normal">Aspirin</span></p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 7:00 am</p>
+        </div>
+        <div>
+          <p class="font-semibold">MEDICINE: <span class="font-normal">Dolo</span></p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 2:30 pm</p>
+        </div>
+        <div>
+          <p class="font-semibold">MEDICINE: <span class="font-normal">Atortib</span></p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 7:00 pm</p>
+        </div>
+        <!-- Scrollable extra items -->
+        <div>
+          <p class="font-semibold">MEDICINE: <span class="font-normal">Extra Med 1</span></p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 9:00 am</p>
+        </div>
+        <div>
+          <p class="font-semibold">MEDICINE: <span class="font-normal">Extra Med 2</span></p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 5:00 pm</p>
+        </div>
       </div>
     </div>
-    <div>
-      <p class="text-white bg-black rounded px-3 py-1 inline-block">Atortib</p>
-      <p class="text-sm mt-1">23/50</p>
-      <div class="w-full bg-black rounded-full h-2">
-        <div class="bg-green-500 h-2 rounded-full" style="width:46%"></div>
-      </div>
-    </div>
-    <div>
-      <p class="text-white bg-black rounded px-3 py-1 inline-block">Aspirin</p>
-      <p class="text-sm mt-1">23/50</p>
-      <div class="w-full bg-black rounded-full h-2">
-        <div class="bg-green-500 h-2 rounded-full" style="width:46%"></div>
-      </div>
-    </div>
-    <!-- Extra scrollable items -->
-    <div>
-      <p class="text-white bg-black rounded px-3 py-1 inline-block">Extra Med 1</p>
-      <p class="text-sm mt-1">15/50</p>
-      <div class="w-full bg-black rounded-full h-2">
-        <div class="bg-yellow-500 h-2 rounded-full" style="width:30%"></div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Appointments -->
-<div class="bg-gray-200 rounded-lg p-4 flex flex-col">
-  <h2 class="bg-black text-white px-4 py-1 rounded-lg inline-block mb-4">
-    APPOINTMENTS
-  </h2>
-  <div class="space-y-4 overflow-y-auto max-h-64 pr-2">
-    <div class="bg-gradient-to-r from-white to-blue-100 p-3 rounded-xl border border-black">
-      <p class="font-semibold">APPOINTMENT WITH DR MARCUS</p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 3:00 PM – 4:30 PM</p>
-      <p class="text-gray-500">27 – Aug – 2025</p>
+
+    <!-- Medicines Stock -->
+    <div class="bg-gray-200 rounded-lg p-4 flex flex-col">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="bg-[#000000] text-white px-4 py-1 rounded-lg">MEDICINES STOCK</h2>
+        <span class="text-[#000000] text-xl">📎</span>
+      </div>
+      <div class="space-y-4 overflow-y-auto max-h-64 pr-2">
+        <div>
+          <p class="text-white bg-[#000000] rounded px-3 py-1 inline-block">Acetaminophen</p>
+          <p class="text-sm mt-1">23/50</p>
+          <div class="w-full bg-[#000000] rounded-full h-2">
+            <div class="bg-green-500 h-2 rounded-full" style="width:46%"></div>
+          </div>
+        </div>
+        <div>
+          <p class="text-white bg-[#000000] rounded px-3 py-1 inline-block">Atortib</p>
+          <p class="text-sm mt-1">23/50</p>
+          <div class="w-full bg-[#000000] rounded-full h-2">
+            <div class="bg-green-500 h-2 rounded-full" style="width:46%"></div>
+          </div>
+        </div>
+        <div>
+          <p class="text-white bg-[#000000] rounded px-3 py-1 inline-block">Aspirin</p>
+          <p class="text-sm mt-1">23/50</p>
+          <div class="w-full bg-[#000000] rounded-full h-2">
+            <div class="bg-green-500 h-2 rounded-full" style="width:46%"></div>
+          </div>
+        </div>
+        <!-- Extra scrollable items -->
+        <div>
+          <p class="text-white bg-[#000000] rounded px-3 py-1 inline-block">Extra Med 1</p>
+          <p class="text-sm mt-1">15/50</p>
+          <div class="w-full bg-[#000000] rounded-full h-2">
+            <div class="bg-yellow-500 h-2 rounded-full" style="width:30%"></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="bg-gradient-to-r from-white to-blue-100 p-3 rounded-xl border border-black">
-      <p class="font-semibold">APPOINTMENT WITH DR ROBERT</p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 6:00 PM – 8:30 PM</p>
-      <p class="text-gray-500">30 – Aug – 2025</p>
+
+    <!-- Appointments -->
+    <div class="bg-gray-200 rounded-lg p-4 flex flex-col">
+      <h2 class="bg-[#000000] text-white px-4 py-1 rounded-lg inline-block mb-4">
+        APPOINTMENTS
+      </h2>
+      <div class="space-y-4 overflow-y-auto max-h-64 pr-2">
+        <div class="bg-gradient-to-r from-white to-blue-100 p-3 rounded-xl border border-[#000000]">
+          <p class="font-semibold">APPOINTMENT WITH DR MARCUS</p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 3:00 PM – 4:30 PM</p>
+          <p class="text-gray-500">27 – Aug – 2025</p>
+        </div>
+        <div class="bg-gradient-to-r from-white to-blue-100 p-3 rounded-xl border border-[#000000]">
+          <p class="font-semibold">APPOINTMENT WITH DR ROBERT</p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 6:00 PM – 8:30 PM</p>
+          <p class="text-gray-500">30 – Aug – 2025</p>
+        </div>
+        <div class="bg-gradient-to-r from-white to-blue-100 p-3 rounded-xl border border-[#000000]">
+          <p class="font-semibold">APPOINTMENT WITH DR MARCUS</p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 3:00 PM – 4:30 PM</p>
+          <p class="text-gray-500">27 – Aug – 2025</p>
+        </div>
+        <!-- Extra scrollable items -->
+        <div class="bg-gradient-to-r from-white to-blue-100 p-3 rounded-xl border border-[#000000]">
+          <p class="font-semibold">APPOINTMENT WITH DR SMITH</p>
+          <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 9:00 AM – 10:00 AM</p>
+          <p class="text-gray-500">01 – Sep – 2025</p>
+        </div>
+      </div>
     </div>
-    <div class="bg-gradient-to-r from-white to-blue-100 p-3 rounded-xl border border-black">
-      <p class="font-semibold">APPOINTMENT WITH DR MARCUS</p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 3:00 PM – 4:30 PM</p>
-      <p class="text-gray-500">27 – Aug – 2025</p>
-    </div>
-    <!-- Extra scrollable items -->
-    <div class="bg-gradient-to-r from-white to-blue-100 p-3 rounded-xl border border-black">
-      <p class="font-semibold">APPOINTMENT WITH DR SMITH</p>
-      <p class="flex items-center gap-2 text-gray-700"><span>🕒</span> 9:00 AM – 10:00 AM</p>
-      <p class="text-gray-500">01 – Sep – 2025</p>
-    </div>
-  </div>
-</div>
 
 
 </body>
+
 </html>
